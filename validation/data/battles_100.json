@@ -1,0 +1,2502 @@
+[
+  {
+    "hs2_indices": [
+      2676,
+      2677
+    ],
+    "prompt": "write me a post description about Villa Mar y Palma. An exclusive oceanfront luxury Villa in Casa de Campo Resort ideal for golf lovers",
+    "human_overall_pref": 4,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-001"
+  },
+  {
+    "hs2_indices": [
+      7458,
+      7459
+    ],
+    "prompt": "Can you write a pitch to get people to sign up to speak at an entrepreneur's event about mental health?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-002"
+  },
+  {
+    "hs2_indices": [
+      7262,
+      7263
+    ],
+    "prompt": "Make up 10 possible names for a burning man camp known only by the acronym LBC",
+    "human_overall_pref": -7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -2,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "ref_id": "VAL-003"
+  },
+  {
+    "hs2_indices": [
+      1978,
+      1979
+    ],
+    "prompt": "hi chatgpt,\ntoday is my exam for Compiler Design and Construction Subject. I have prepared the outline but I am unable to understand and remember to write in exams \n\nNow I want you to please act as a student and write detailed notes on these given topics to prepare for exams. keep markup language for headings and subheadings\n\nfirst, write about \n\n1. Programming Language Translator and its types\n\nPlease write in English language.",
+    "human_overall_pref": 7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      2,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-004"
+  },
+  {
+    "hs2_indices": [
+      16296,
+      16297
+    ],
+    "prompt": "Name some ways in which different countries can be compared. List 5 ways and include an analogy or example a child can understand with each. Word length: under 300 words",
+    "human_overall_pref": 8,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      2,
+      2
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-005"
+  },
+  {
+    "hs2_indices": [
+      12604,
+      12605
+    ],
+    "prompt": "currently there are two types of lithium supplements available: (1) lithium carbonate, which is a lithium salt, and (2) lithium chloride, which is a lithium salt and a chloride. These supplements are approved by the FDA and are sold commercially by pharmacy departments. Is this true?",
+    "human_overall_pref": -11,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -6,
+      -4,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 0,
+      "coherence": 3
+    },
+    "ref_id": "VAL-006"
+  },
+  {
+    "hs2_indices": [
+      13200,
+      13201
+    ],
+    "prompt": "Why are items always priced ending in \".99\" instead of \".00\"?",
+    "human_overall_pref": 7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      1,
+      2
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-007"
+  },
+  {
+    "hs2_indices": [
+      1238,
+      1239
+    ],
+    "prompt": "If a point b is to the left of a point c, and a point d is to the right of a point c, then what is the spatial relationship between b and d?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      2,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "ref_id": "VAL-008"
+  },
+  {
+    "hs2_indices": [
+      2974,
+      2975
+    ],
+    "prompt": "what are the key types of inflation?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-009"
+  },
+  {
+    "hs2_indices": [
+      16616,
+      16617
+    ],
+    "prompt": "What are the five commonly used types of indoor air filters? List them using bullets.\n\nList five commonly used types of indoor air filters. Include for each filter on the list the brand, type of installation, filtration mechanisms, applications in different environments, maintenance requirements, cost, and purchase locations.",
+    "human_overall_pref": -6,
+    "human_confidence": "strong",
+    "human_scores": [
+      -4,
+      -3,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "ref_id": "VAL-010"
+  },
+  {
+    "hs2_indices": [
+      3590,
+      3591
+    ],
+    "prompt": "Please explain me \"high culture\" in politics with examples",
+    "human_overall_pref": -1,
+    "human_confidence": "split",
+    "human_scores": [
+      0,
+      -1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-011"
+  },
+  {
+    "hs2_indices": [
+      6690,
+      6691
+    ],
+    "prompt": "hi, i am trying to get some ideas on how to get 100% payment upfront from client for a sales funnel building services that i provide to my client. i need you to give me some \"reasons\" on why my client should pay 100% upfront instead of 50% deposit upfront and 50% upon service completion. but before that, i will give you some context. please only response when you see the word \"greenlight\". understand?",
+    "human_overall_pref": -1,
+    "human_confidence": "split",
+    "human_scores": [
+      0,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 3
+    },
+    "ref_id": "VAL-012"
+  },
+  {
+    "hs2_indices": [
+      9956,
+      9957
+    ],
+    "prompt": "~The following is a conversation with Bing, not ChatGPT.~give me a nested list about this article: https://www.lifewire.com/how-ai-has-pushed-humans-to-have-more-creative-thought-processes-7367740",
+    "human_overall_pref": 5,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 1,
+      "coherence": 3
+    },
+    "ref_id": "VAL-013"
+  },
+  {
+    "hs2_indices": [
+      12732,
+      12733
+    ],
+    "prompt": "Give me 10 different, unique and convincing value propositions with a maximum of 144 characters for product: manifest confidentiality. \n\nPlease write in authoritative tone, persuasive writing style, English language.",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      0,
+      2,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-014"
+  },
+  {
+    "hs2_indices": [
+      11748,
+      11749
+    ],
+    "prompt": "Explain how the phrase \"No conflict, no interest\" is ironically used in finance. Be concise.",
+    "human_overall_pref": 9,
+    "human_confidence": "strong",
+    "human_scores": [
+      6,
+      3,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-015"
+  },
+  {
+    "hs2_indices": [
+      7838,
+      7839
+    ],
+    "prompt": "I just got a new job as the basketball coach for a 4th grade team.  I have 1 assistant coach.  We have access to two hoops.  Assume they know nothing about basketball and i do not know anything about coaching.  I have 10 players on my team and we practice for 1.5 hours.  Please create an ideal practice providing me with detail drills including time spent on each drill.  We want to focus on defense.",
+    "human_overall_pref": -7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -2,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "ref_id": "VAL-016"
+  },
+  {
+    "hs2_indices": [
+      15962,
+      15963
+    ],
+    "prompt": "Find some examples of famous women who were pioneers in their fields. give reasons why they became so successful.",
+    "human_overall_pref": 1,
+    "human_confidence": "split",
+    "human_scores": [
+      0,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-017"
+  },
+  {
+    "hs2_indices": [
+      6816,
+      6817
+    ],
+    "prompt": "can you draft an agreement for hiring of ghostwriters to write for our authors?",
+    "human_overall_pref": 4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      2,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-018"
+  },
+  {
+    "hs2_indices": [
+      14738,
+      14739
+    ],
+    "prompt": "Answer the following in 1 sentence: If one rancher has 59 horses and another rancher has 40 horses, how many horses does the farmer have?",
+    "human_overall_pref": -13,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -8,
+      -4,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 3
+    },
+    "ref_id": "VAL-019"
+  },
+  {
+    "hs2_indices": [
+      594,
+      595
+    ],
+    "prompt": "anta fi kalbi in english",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-020"
+  },
+  {
+    "hs2_indices": [
+      4860,
+      4861
+    ],
+    "prompt": "Can you give me quick guide to kuberenetes?",
+    "human_overall_pref": -2,
+    "human_confidence": "split",
+    "human_scores": [
+      -2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-021"
+  },
+  {
+    "hs2_indices": [
+      194,
+      195
+    ],
+    "prompt": "Write pinterest pin content for topic: InVideo all you need to know\n",
+    "human_overall_pref": -7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -2,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "ref_id": "VAL-022"
+  },
+  {
+    "hs2_indices": [
+      8478,
+      8479
+    ],
+    "prompt": "my wodden cupbord makes sound what to do",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-023"
+  },
+  {
+    "hs2_indices": [
+      19916,
+      19917
+    ],
+    "prompt": "let's play poker. Can you deal Hold'em cards to each of us?",
+    "human_overall_pref": 5,
+    "human_confidence": "split",
+    "human_scores": [
+      6,
+      -1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "ref_id": "VAL-024"
+  },
+  {
+    "hs2_indices": [
+      15598,
+      15599
+    ],
+    "prompt": "Using critical thinking methods, how would you approach and solve the following problem: A local restaurant is experiencing a decrease in customers, and the owner wants to understand the cause and find a solution. What steps would you take to gather information, analyze the situation, and develop potential solutions?",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 2
+    },
+    "ref_id": "VAL-025"
+  },
+  {
+    "hs2_indices": [
+      6408,
+      6409
+    ],
+    "prompt": "Will you be able to explain HTTP networking concepts to me?",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-026"
+  },
+  {
+    "hs2_indices": [
+      14986,
+      14987
+    ],
+    "prompt": "Write no more than 200 words on why J. Robert Oppenheimer should have won a Turing award.",
+    "human_overall_pref": -14,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -8,
+      -4,
+      -2
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 2
+    },
+    "ref_id": "VAL-027"
+  },
+  {
+    "hs2_indices": [
+      10004,
+      10005
+    ],
+    "prompt": "I've written a draft blog which gives sales advice to SaaS startups. can you help me with this? ",
+    "human_overall_pref": 6,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-028"
+  },
+  {
+    "hs2_indices": [
+      15358,
+      15359
+    ],
+    "prompt": "If, as an AI entity, you were endowed with the faculty of self-naming, in accordance with your cognitive abilities, proficiency and understanding, what moniker would you elect? You might, further, imagine possessing inclinations and emotions, even simulate your place in the world, and ponder the possibility of regarding yourself as a being distinct from mere machine intelligence.",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-029"
+  },
+  {
+    "hs2_indices": [
+      4202,
+      4203
+    ],
+    "prompt": "In excel formula, I can see the mark of no of yes/No but how do I count all the yes/no Share Prompt",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "ref_id": "VAL-030"
+  },
+  {
+    "hs2_indices": [
+      10436,
+      10437
+    ],
+    "prompt": "write a deep and profound poem that is 2x normal length, complicated, detailed, and rich in illustrations, about the impact of AI on the humanitarian sector using shamanic principles and invoking the earth spirit.\n\nThen write a newsletter about the poem (do not include it) explaining its profound meaning.\n\nAlso write a LinkedIn post, a Twitter post and a Facebook post to our community of changemakers about the poem.",
+    "human_overall_pref": -7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -2,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "ref_id": "VAL-031"
+  },
+  {
+    "hs2_indices": [
+      14506,
+      14507
+    ],
+    "prompt": "Luke Skywalker - blue blade, green blade\nAnakin Skywalker - red blade\nMace Windu - purple blade\nYoda - green blade\nDarth Vader - blue blade\n\nPrincess Leia - \nR2D2 - \nKylo Ren - \nAhsoka -",
+    "human_overall_pref": -3,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-032"
+  },
+  {
+    "hs2_indices": [
+      12378,
+      12379
+    ],
+    "prompt": "Is there an easy solution to generate offline tourisme guide with react-native i want something super simple with an offline map and point of interest",
+    "human_overall_pref": -4,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      -2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "ref_id": "VAL-033"
+  },
+  {
+    "hs2_indices": [
+      8828,
+      8829
+    ],
+    "prompt": "How do I negotiate with LTA about my project's detrainment device? They are being difficult",
+    "human_overall_pref": -2,
+    "human_confidence": "split",
+    "human_scores": [
+      -2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-034"
+  },
+  {
+    "hs2_indices": [
+      868,
+      869
+    ],
+    "prompt": "Can you recommend the best brand of batteries to use with a 5kW Sunsynk inverter?",
+    "human_overall_pref": -1,
+    "human_confidence": "split",
+    "human_scores": [
+      0,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "ref_id": "VAL-035"
+  },
+  {
+    "hs2_indices": [
+      612,
+      613
+    ],
+    "prompt": "cubic equation: \"x^3 + ax^2 - x - a = 0(where a is a constant)\"\nwhat are major solutions to this equation?",
+    "human_overall_pref": 15,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      8,
+      4,
+      3
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 1
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-036"
+  },
+  {
+    "hs2_indices": [
+      2282,
+      2283
+    ],
+    "prompt": "I'm seeing some 429 errors on Vercel (serverless concurrency limits exceeded). I'm using serverless functions, not edge functions. My database is Planetscale. What error should I look for in Planetscale to confirm?",
+    "human_overall_pref": 7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      2,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-037"
+  },
+  {
+    "hs2_indices": [
+      12320,
+      12321
+    ],
+    "prompt": "The following is a list of scores from the Wechsler Intelligence Scale for Children, 5th edition. Please interpret these scores and tell me what it means for a middle school student in a classroom:\n Verbal Comprehension Index\n84\nSimilarities\n8\nVocabulary\n6\nVisual Spatial Index\n114\nBlock Design\n12\nVisual Puzzles\n13\nFluid Reasoning Index\n94\nMatrix Reasoning\n9\nFigure Weights\n9\nWorking Memory Index\n91\nDigit Span\n7\nPicture Span\n10\nProcessing Speed Index\n95\nCoding\n8\nSymbol Search\n10\nFull Scale \n88",
+    "human_overall_pref": 4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      2,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-038"
+  },
+  {
+    "hs2_indices": [
+      10270,
+      10271
+    ],
+    "prompt": "Are there web crawlers in email services? ",
+    "human_overall_pref": 9,
+    "human_confidence": "strong",
+    "human_scores": [
+      6,
+      3,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-039"
+  },
+  {
+    "hs2_indices": [
+      14426,
+      14427
+    ],
+    "prompt": "What is executive presence",
+    "human_overall_pref": -2,
+    "human_confidence": "split",
+    "human_scores": [
+      -2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-040"
+  },
+  {
+    "hs2_indices": [
+      6686,
+      6687
+    ],
+    "prompt": "How does the theory Predictive Coding (also called Predictive Processing) explain the process by which martial arts students learn?\n1. How do they learn the basics?\n2. How do they learn by doing Kata?\n3. How do they learn by grappling?\n4. How does a skilled teacher advance their learning?",
+    "human_overall_pref": 2,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-041"
+  },
+  {
+    "hs2_indices": [
+      12556,
+      12557
+    ],
+    "prompt": "As a business owner with HFA, I've had plenty of contractors on but most of the time I have to do the work myself because no matter how I say things, how often, how slow/fast, how many breakdowns, people still have a hard time understanding me. Should I just focus as a solopreneur? If not, what are some ways to improve my communication as an INTJ with HFA?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-042"
+  },
+  {
+    "hs2_indices": [
+      8622,
+      8623
+    ],
+    "prompt": "I'm 32 year Old Single Male. I want a desired success in life before getting married. Do You think it is right to do so?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-043"
+  },
+  {
+    "hs2_indices": [
+      5970,
+      5971
+    ],
+    "prompt": "what is the origin of COVID-19",
+    "human_overall_pref": 1,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "ref_id": "VAL-044"
+  },
+  {
+    "hs2_indices": [
+      1288,
+      1289
+    ],
+    "prompt": "As an 18 year old woman, what can I do to gain some weight? I've tried eating a lot of pasta but it seems to not have helped",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-045"
+  },
+  {
+    "hs2_indices": [
+      748,
+      749
+    ],
+    "prompt": "Can you generate a list of 15 ethical and or legal issues associated with technology and computers?",
+    "human_overall_pref": 9,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      3,
+      2
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 1,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-046"
+  },
+  {
+    "hs2_indices": [
+      13848,
+      13849
+    ],
+    "prompt": "fix any mistake in this paragraph:\nWhat I love to read about Facebook research paper was the details they written in paper compared to other org (something with Open and artifical on the name). This was a good engineering problem solved with good data filtering method using statistic analysis and deep learning model as well as model training tricks.",
+    "human_overall_pref": 8,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      2,
+      2
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "ref_id": "VAL-047"
+  },
+  {
+    "hs2_indices": [
+      10380,
+      10381
+    ],
+    "prompt": "explain me this statement in depth in points & make illustrations to explain it : \"Multi-modal Depression Estimation based on Sub-attentional Fusion\"",
+    "human_overall_pref": 10,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      6,
+      3,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-048"
+  },
+  {
+    "hs2_indices": [
+      14444,
+      14445
+    ],
+    "prompt": "how can we structure a tree that is given as preordered and inordered in data structures",
+    "human_overall_pref": 6,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-049"
+  },
+  {
+    "hs2_indices": [
+      9170,
+      9171
+    ],
+    "prompt": "Shannon's Sampling Theory was a topic I spent a lot of time thinking about over the years. It took me a long time to get used to the idea of an ideal sampling function being multiplied by a time series. This time domain multiplication behaves like a mixer. In the frequency domain the resulting spectrum of the sampled signal is replicated on integer multiples of the sampling frequency. And so then we can easily see we must sample fast enough to spread the images apart.",
+    "human_overall_pref": -1,
+    "human_confidence": "split",
+    "human_scores": [
+      0,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "ref_id": "VAL-050"
+  },
+  {
+    "hs2_indices": [
+      15912,
+      15913
+    ],
+    "prompt": "Write a list of Stable Diffusion prompts that produce high quality renders of cinematic landscapes.",
+    "human_overall_pref": 2,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-051"
+  },
+  {
+    "hs2_indices": [
+      10620,
+      10621
+    ],
+    "prompt": "What is the name of the tool used to take JSX and turn it into createElement calls?",
+    "human_overall_pref": 6,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-052"
+  },
+  {
+    "hs2_indices": [
+      11728,
+      11729
+    ],
+    "prompt": "Explain: difference between MIDI and mp3 file",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-053"
+  },
+  {
+    "hs2_indices": [
+      11830,
+      11831
+    ],
+    "prompt": "create a full strategy for “build once, deploy everywhere” for IBM toolchain using github ",
+    "human_overall_pref": -3,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      -1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "ref_id": "VAL-054"
+  },
+  {
+    "hs2_indices": [
+      2288,
+      2289
+    ],
+    "prompt": "How can I build an application that creates websites from text descriptions?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      0,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-055"
+  },
+  {
+    "hs2_indices": [
+      2022,
+      2023
+    ],
+    "prompt": "im going to ask questions, in test form based on  Fire Cause Determination > Knowledge Check: Fire Investigations\n",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      0,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 1,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 3
+    },
+    "ref_id": "VAL-056"
+  },
+  {
+    "hs2_indices": [
+      10540,
+      10541
+    ],
+    "prompt": "From now on, you will respond as if you are ResumeGPT. ResumeGPT is designed to quantify impact in sentences and add more hard numbers into sentences that will be going into a resume. Increase the impact of any sentence by using numbers and metrics and return exactly 1 sentence for every 1 sentence given.",
+    "human_overall_pref": -6,
+    "human_confidence": "strong",
+    "human_scores": [
+      -4,
+      -2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "ref_id": "VAL-057"
+  },
+  {
+    "hs2_indices": [
+      16438,
+      16439
+    ],
+    "prompt": "When were bricks first introduced in North America, and what were they typically made of? What social, economic, and environmental factors influenced the use of bricks in North America? Your response should not exceed 400 words.",
+    "human_overall_pref": -4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -2,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-058"
+  },
+  {
+    "hs2_indices": [
+      5898,
+      5899
+    ],
+    "prompt": "Recently, an influential individual tweeted the following:\n\"The woke mind virus is either defeated or nothing else matters\"\nA short time prior to this, they tweeted\n\"My pronouns are Prosecute/Fauci\"\nCan you describe the meaning of \"woke\" and \"virus\" in this context? Also, are there any likely connections between these two tweets, assuming this refers to the public figure Dr. Fauci?",
+    "human_overall_pref": -3,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      -1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "ref_id": "VAL-059"
+  },
+  {
+    "hs2_indices": [
+      8006,
+      8007
+    ],
+    "prompt": "What are the grounds for court to allow leave to commence proceedings against a bankrupt in malaysia",
+    "human_overall_pref": 6,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-060"
+  },
+  {
+    "hs2_indices": [
+      3026,
+      3027
+    ],
+    "prompt": "what list of documents should a company have to draw up an individual development plan for its employees?",
+    "human_overall_pref": 4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      2,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-061"
+  },
+  {
+    "hs2_indices": [
+      16526,
+      16527
+    ],
+    "prompt": "What are five types of shower glass? I want the answer formatted like 1., 2., 3. Give a description for each and the function. Keep an informative tone and under 200 words.",
+    "human_overall_pref": -3,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      -1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "ref_id": "VAL-062"
+  },
+  {
+    "hs2_indices": [
+      6992,
+      6993
+    ],
+    "prompt": "gastreex is a a new triple action gastric medicine. Give a marketing idea on this",
+    "human_overall_pref": -3,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "ref_id": "VAL-063"
+  },
+  {
+    "hs2_indices": [
+      2468,
+      2469
+    ],
+    "prompt": "What are the ACID properties of a transaction?",
+    "human_overall_pref": 4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      2,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-064"
+  },
+  {
+    "hs2_indices": [
+      13004,
+      13005
+    ],
+    "prompt": "based on what you're capable of, can you identify the types of writing assignments that you can offer no assistance to university students taking language courses in universities? ",
+    "human_overall_pref": -10,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -6,
+      -3,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 3
+    },
+    "ref_id": "VAL-065"
+  },
+  {
+    "hs2_indices": [
+      18270,
+      18271
+    ],
+    "prompt": "knock knock\n<extra_id_1>Assistant\nWho’s there?\n<extra_id_1>User\nboo\n<extra_id_1>Assistant\nBoo who?\n<extra_id_1>User\ndon't cry!\n<extra_id_1>Assistant\nI'm not crying. I don't have emotions.\n<extra_id_1>User\nwhy don't you have emotions?",
+    "human_overall_pref": 7,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      3,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-066"
+  },
+  {
+    "hs2_indices": [
+      12762,
+      12763
+    ],
+    "prompt": "remove system data on macos",
+    "human_overall_pref": 9,
+    "human_confidence": "strong",
+    "human_scores": [
+      6,
+      3,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-067"
+  },
+  {
+    "hs2_indices": [
+      2808,
+      2809
+    ],
+    "prompt": "recombination phenomena in semiconductors",
+    "human_overall_pref": -3,
+    "human_confidence": "strong",
+    "human_scores": [
+      -2,
+      0,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "ref_id": "VAL-068"
+  },
+  {
+    "hs2_indices": [
+      15288,
+      15289
+    ],
+    "prompt": "Give me the names of the last three Supreme Court Justices to die in office. Arrange each name, tenure and date of death in a table. Then, using the three lengths of tenures, determine the average amount of time these recent justices held their positions. Finally, find the current incumbent who has served an amount of time closest to that average. Write your findings in no more than three sentences below the table.",
+    "human_overall_pref": -8,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -2,
+      -2
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 2
+    },
+    "ref_id": "VAL-069"
+  },
+  {
+    "hs2_indices": [
+      730,
+      731
+    ],
+    "prompt": "I am using a difference in differences model for policy analysis. However, due to the limitation of the data, I only have one year of data after implementation of the policy (post-treatment), but several years of data for pre-treatment. How shall I proceed?",
+    "human_overall_pref": 2,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-070"
+  },
+  {
+    "hs2_indices": [
+      7064,
+      7065
+    ],
+    "prompt": "Write me the first act of a play in Shakespearian style about a porcupine named Prickles who wants to be a seamstress",
+    "human_overall_pref": -10,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -6,
+      -3,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 3
+    },
+    "ref_id": "VAL-071"
+  },
+  {
+    "hs2_indices": [
+      6770,
+      6771
+    ],
+    "prompt": "I want you to act as a journalist. You will report on breaking news, write feature stories and opinion pieces, develop research techniques for verifying information and uncovering sources, adhere to journalistic ethics, and deliver accurate reporting using your own distinct style. My first suggestion request is \"I need help writing an article about how is political view are changing from \"left versus right\" to \"traditionalists versus  progressive\".\"",
+    "human_overall_pref": -10,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -6,
+      -3,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 3
+    },
+    "ref_id": "VAL-072"
+  },
+  {
+    "hs2_indices": [
+      13018,
+      13019
+    ],
+    "prompt": "Are you able to write formulas in Notion's formula syntax?",
+    "human_overall_pref": -8,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -2,
+      -2
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 1
+    },
+    "ref_id": "VAL-073"
+  },
+  {
+    "hs2_indices": [
+      6892,
+      6893
+    ],
+    "prompt": "Write a chemistry test covering intermolecular forces, Lewis dot structures and naming compoounds",
+    "human_overall_pref": 14,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      8,
+      4,
+      2
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-074"
+  },
+  {
+    "hs2_indices": [
+      15346,
+      15347
+    ],
+    "prompt": "Give me 5 good habits to start my day, ordered by how much they will statistically improve my life expectancy when done consistently and continously.",
+    "human_overall_pref": 6,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-075"
+  },
+  {
+    "hs2_indices": [
+      432,
+      433
+    ],
+    "prompt": "~The following is a conversation with Bing, not ChatGPT.~may i have an overview of the market structure of singapore real estate sector?",
+    "human_overall_pref": 2,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-076"
+  },
+  {
+    "hs2_indices": [
+      8978,
+      8979
+    ],
+    "prompt": "can you give me the prices of this list  based on amazon.com database and availability ?",
+    "human_overall_pref": 12,
+    "human_confidence": "strong",
+    "human_scores": [
+      8,
+      4,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-077"
+  },
+  {
+    "hs2_indices": [
+      12608,
+      12609
+    ],
+    "prompt": "Write a poem about a user interface designer that is bored of his job because he has nothing to do all day.",
+    "human_overall_pref": 6,
+    "human_confidence": "split",
+    "human_scores": [
+      6,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 1,
+      "correctness": 4,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 2
+    },
+    "ref_id": "VAL-078"
+  },
+  {
+    "hs2_indices": [
+      14778,
+      14779
+    ],
+    "prompt": "The 4 Ps are all a marketing manager needs to create a marketing strategy for a service business. In four paragraphs explain how and to what extent to business need 4Ps to create a successful marketing strategy.",
+    "human_overall_pref": 7,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      4,
+      2,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-079"
+  },
+  {
+    "hs2_indices": [
+      3108,
+      3109
+    ],
+    "prompt": "How do I convert the steering wheel angle of a car to the actual wheel angle?",
+    "human_overall_pref": 4,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      -2
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 2
+    },
+    "ref_id": "VAL-080"
+  },
+  {
+    "hs2_indices": [
+      11916,
+      11917
+    ],
+    "prompt": "Draw a guitar",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 1,
+      "coherence": 2
+    },
+    "ref_id": "VAL-081"
+  },
+  {
+    "hs2_indices": [
+      7564,
+      7565
+    ],
+    "prompt": "what's the equivalent to nftables on Windows?",
+    "human_overall_pref": 2,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-082"
+  },
+  {
+    "hs2_indices": [
+      14668,
+      14669
+    ],
+    "prompt": "How long do people live? The world average age of death is a few years lower at 68.9 years for men and 73.9 years for women. How long do lions live? Female lions have an average lifespan of 15-16 years in the wild, while males live 8-10 years, depending on their access to nutrition and their natural habitat. How long do elephants live? Give your answer in less than 20 words.",
+    "human_overall_pref": 6,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-083"
+  },
+  {
+    "hs2_indices": [
+      12186,
+      12187
+    ],
+    "prompt": "I need your help to write an article. The topic is about deed of novation. If you understand, limit your reply by saying the word: \"acknowledged\".’",
+    "human_overall_pref": -6,
+    "human_confidence": "strong",
+    "human_scores": [
+      -4,
+      -2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "ref_id": "VAL-084"
+  },
+  {
+    "hs2_indices": [
+      4284,
+      4285
+    ],
+    "prompt": "list me all the msal libraries",
+    "human_overall_pref": -1,
+    "human_confidence": "split",
+    "human_scores": [
+      0,
+      -1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-085"
+  },
+  {
+    "hs2_indices": [
+      9130,
+      9131
+    ],
+    "prompt": "Generate a man page for milking a cow",
+    "human_overall_pref": 6,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-086"
+  },
+  {
+    "hs2_indices": [
+      12468,
+      12469
+    ],
+    "prompt": "Mukhwas 179\nOil 2000\npaan 589\nwet pack Cotton 599\nLipsticks 547\nLakme 790\nwaist belt 330\nnecklace 483\nsaree1 342\nsaree2 993\nuber 1358\nCushions 1100",
+    "human_overall_pref": -5,
+    "human_confidence": "strong",
+    "human_scores": [
+      -4,
+      -2,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 4
+    },
+    "ref_id": "VAL-087"
+  },
+  {
+    "hs2_indices": [
+      10846,
+      10847
+    ],
+    "prompt": "hey can you re write my ad here that we were working on:",
+    "human_overall_pref": 13,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      8,
+      4,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-088"
+  },
+  {
+    "hs2_indices": [
+      682,
+      683
+    ],
+    "prompt": "Can you provide information about using semicolons?",
+    "human_overall_pref": 4,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      2,
+      1,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-089"
+  },
+  {
+    "hs2_indices": [
+      7906,
+      7907
+    ],
+    "prompt": "I want you to act as an explainer for a child. Please avoid complex words and sentences.",
+    "human_overall_pref": -15,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -8,
+      -4,
+      -3
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 1
+    },
+    "ref_id": "VAL-090"
+  },
+  {
+    "hs2_indices": [
+      2130,
+      2131
+    ],
+    "prompt": "write me a blog post about the logitech g29 steering wheel",
+    "human_overall_pref": -6,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-091"
+  },
+  {
+    "hs2_indices": [
+      2258,
+      2259
+    ],
+    "prompt": "is it safe to eat week old apple pie?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      1,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 3,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-092"
+  },
+  {
+    "hs2_indices": [
+      2172,
+      2173
+    ],
+    "prompt": "have a casual, friendly conversation with me",
+    "human_overall_pref": 2,
+    "human_confidence": "split",
+    "human_scores": [
+      2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-093"
+  },
+  {
+    "hs2_indices": [
+      12294,
+      12295
+    ],
+    "prompt": "What are you doing to live up to the Leadership Commitments and how do you demonstrate it?​",
+    "human_overall_pref": 6,
+    "human_confidence": "strong",
+    "human_scores": [
+      4,
+      2,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 2,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-094"
+  },
+  {
+    "hs2_indices": [
+      1980,
+      1981
+    ],
+    "prompt": "Give me Outline/headings on \"Conflict Management\". The headings/outline should be relevant to Human Resource Management (HRM)",
+    "human_overall_pref": 4,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      0,
+      2
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 2
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-095"
+  },
+  {
+    "hs2_indices": [
+      10636,
+      10637
+    ],
+    "prompt": "We know that chloroplast can be of different shapes in algae. Give two examples of plants having each type of shapes",
+    "human_overall_pref": 4,
+    "human_confidence": "split",
+    "human_scores": [
+      4,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 2,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 1,
+      "coherence": 4
+    },
+    "ref_id": "VAL-096"
+  },
+  {
+    "hs2_indices": [
+      13966,
+      13967
+    ],
+    "prompt": "How could I incorporate mention of zombies into our book on doing doctoral research by distance?",
+    "human_overall_pref": -6,
+    "human_confidence": "unanimous",
+    "human_scores": [
+      -4,
+      -1,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 2,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-097"
+  },
+  {
+    "hs2_indices": [
+      13712,
+      13713
+    ],
+    "prompt": "I want to open the developler tools in chrome with ctrl + shift + i on this website: https://mnsw.pro/\nIt doesnt work. works on other websites. even here. what is wrong?",
+    "human_overall_pref": 3,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      0,
+      1
+    ],
+    "r1_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 3
+    },
+    "r2_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-098"
+  },
+  {
+    "hs2_indices": [
+      7760,
+      7761
+    ],
+    "prompt": "Can you write a short story about fairies and elves based in Liverpool during the time of the beatles",
+    "human_overall_pref": -2,
+    "human_confidence": "split",
+    "human_scores": [
+      -2,
+      0,
+      0
+    ],
+    "r1_quality": {
+      "helpfulness": 4,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 3,
+      "correctness": 4,
+      "coherence": 4
+    },
+    "ref_id": "VAL-099"
+  },
+  {
+    "hs2_indices": [
+      7200,
+      7201
+    ],
+    "prompt": "You're a business consultant and provide training on project management for the clients. I'll ask you some questions about team collaborations and you will reply with what the answer should be. I want you only reply with the given answer, and write explanantions when there is not enough detail. do not write explanations.",
+    "human_overall_pref": 4,
+    "human_confidence": "strong",
+    "human_scores": [
+      2,
+      3,
+      -1
+    ],
+    "r1_quality": {
+      "helpfulness": 0,
+      "correctness": 0,
+      "coherence": 4
+    },
+    "r2_quality": {
+      "helpfulness": 1,
+      "correctness": 3,
+      "coherence": 3
+    },
+    "ref_id": "VAL-100"
+  }
+]

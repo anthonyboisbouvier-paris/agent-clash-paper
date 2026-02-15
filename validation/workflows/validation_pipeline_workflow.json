@@ -1,0 +1,321 @@
+{
+  "name": "MT-Bench Validation Pipeline",
+  "nodes": [
+    {
+      "id": "wh-val",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        100,
+        300
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "validate-mtbench",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "webhookId": "validate-mtbench"
+    },
+    {
+      "id": "v1-parse",
+      "name": "V1. Parse Input",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        320,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\n// V1. Parse & Validate Input\nconst body = $input.first().json.body || $input.first().json;\n\nconst VALID_FRIEND_CODE = 'YOUR_FRIEND_CODE_HERE';\nconst MY_API_KEY = 'YOUR_OPENROUTER_API_KEY_HERE';\n\n// Validate credentials\nlet finalApiKey = null;\nconst friendCode = body.friend_code || '';\nconst userApiKey = body.api_key || '';\n\nif (friendCode.trim() !== '') {\n  if (friendCode === VALID_FRIEND_CODE) {\n    finalApiKey = MY_API_KEY;\n  } else {\n    return [{json: {_error: true, message: 'Invalid friend code.'}}];\n  }\n} else if (userApiKey.trim() !== '') {\n  finalApiKey = userApiKey;\n} else {\n  return [{json: {_error: true, message: 'Please provide an API key or friend code.'}}];\n}\n\n// Validate required fields\nif (!body.prompt || !body.response_a || !body.response_b || !body.model_a || !body.model_b) {\n  return [{json: {_error: true, message: 'Missing required fields: prompt, response_a, response_b, model_a, model_b'}}];\n}\n\nreturn [{json: {\n  prompt: body.prompt,\n  response_a: body.response_a,\n  response_b: body.response_b,\n  model_a: body.model_a,\n  model_b: body.model_b,\n  winner: body.winner || '',\n  winner_side: body.winner_side || '',\n  eval_id: body.eval_id || '',\n  api_key: finalApiKey,\n  enable_supreme_court: body.enable_supreme_court || false\n}}];\n"
+      }
+    },
+    {
+      "id": "v2-inject",
+      "name": "V2. Inject Responses",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        540,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\n// V2. Inject Responses - Format exactly like Node 4 output from prod\nconst input = $input.first().json;\nif (input._error) return [{json: input}];\n\nconst responses = [\n  {\n    response_id: 'R0', model_id: 0, model_name: input.model_a,\n    response_text: input.response_a, cost: 0, cost_per_1k: 0,\n    generation_time_ms: 0, response_length: input.response_a.length,\n    prompt_tokens: 0, completion_tokens: 0\n  },\n  {\n    response_id: 'R1', model_id: 1, model_name: input.model_b,\n    response_text: input.response_b, cost: 0, cost_per_1k: 0,\n    generation_time_ms: 0, response_length: input.response_b.length,\n    prompt_tokens: 0, completion_tokens: 0\n  }\n];\n\n// Shuffle for anonymization (random order to avoid position bias)\nconst shuffled = [...responses].sort(() => Math.random() - 0.5);\nconst anonymized_responses = shuffled.map((r, i) => ({id: `A${i}`, text: r.response_text}));\nconst model_mapping = shuffled.map((r, i) => ({anon_id: `A${i}`, real_model: r.model_name, model_id: r.model_id}));\n\nreturn [{json: {\n  original_prompt: input.prompt,\n  responses: responses,\n  anonymized_responses: anonymized_responses,\n  model_mapping: model_mapping,\n  api_key: input.api_key,\n  enable_supreme_court: input.enable_supreme_court,\n  eval_id: input.eval_id,\n  human_winner: input.winner,\n  human_winner_side: input.winner_side\n}}];\n"
+      }
+    },
+    {
+      "id": "gen-criteria",
+      "name": "4b. Generate Criteria",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [
+        760,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $json.api_key }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({model: \"openai/gpt-4o-mini\", messages: [{role: \"user\", content: \"You are an evaluation design expert. Given a user prompt, identify 3 to 5 specific evaluation criteria that are most relevant for judging AI responses to this prompt.\\n\\nUser prompt: \\\"\" + $json.original_prompt + \"\\\"\\n\\nReturn ONLY a JSON object with this exact format:\\n{\\\"criteria\\\": [\\\"Criterion 1\\\", \\\"Criterion 2\\\", \\\"Criterion 3\\\"]}\\n\\nRules:\\n- Each criterion must be 2-4 words (e.g. \\\"Scientific accuracy\\\", \\\"Code correctness\\\", \\\"Creative originality\\\")\\n- Choose criteria specifically relevant to THIS prompt type\\n- Always include between 3 and 5 criteria\\n- No explanation, just the JSON object.\"}], max_tokens: 150, temperature: 0.3}) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "continueOnFail": true
+    },
+    {
+      "id": "parse-crit",
+      "name": "4c. Parse Criteria",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        980,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\n// 4c. Parse Criteria - Extract criteria from gpt-4o-mini response, with fallback\nconst FALLBACK_CRITERIA = [\"Accuracy\", \"Clarity\", \"Helpfulness\", \"Completeness\"];\n\n// Get original data from V2 (instead of Node 4 in prod)\nconst originalData = $items('V2. Inject Responses')[0].json;\nif (originalData._error) return [{json: originalData}];\n\nlet criteria = FALLBACK_CRITERIA;\nlet criteriaSource = 'fallback';\n\ntry {\n  const item = $input.first().json;\n  if (!item.error && item.choices && item.choices[0]) {\n    const content = item.choices[0].message.content;\n    const objMatch = content.match(/\\{[\\s\\S]*\"criteria\"[\\s\\S]*\\}/);\n    if (objMatch) {\n      const parsed = JSON.parse(objMatch[0]);\n      if (Array.isArray(parsed.criteria) && parsed.criteria.length >= 3 && parsed.criteria.length <= 5) {\n        criteria = parsed.criteria;\n        criteriaSource = 'dynamic';\n      }\n    }\n  }\n} catch (e) {\n  // Fallback silently\n}\n\n// Merge criteria into original data and pass everything through\nconst data = {...originalData, evaluation_criteria: criteria, criteria_source: criteriaSource};\nreturn [{json: data}];\n"
+      }
+    },
+    {
+      "id": "prep-judges",
+      "name": "5. Prepare Judge Tasks",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\nconst data = $input.first().json;\nif (data._error) return [{json: data}];\n\nconst models = [...new Set(data.responses.map(r => r.model_name))];\nconst api_key = data.api_key;\nconst enableSupremeCourt = data.enable_supreme_court;\nconst criteria = data.evaluation_criteria || [\"Accuracy\", \"Clarity\", \"Helpfulness\", \"Completeness\"];\nconst judge_tasks = [];\n\nconst criteriaList = criteria.map((c, i) => `${i+1}. ${c}`).join('\\n');\n\nfunction buildJudgePrompt(preamble, originalPrompt, responses, criteria, criteriaList) {\n  const responses_text = responses.map(r => `${r.id}: ${r.text}`).join('\\n\\n');\n  return `${preamble}\n\nOriginal question: \"${originalPrompt}\"\n\nEvaluation criteria:\n${criteriaList}\n\nHere are ${responses.length} different responses:\n\n${responses_text}\n\nYour task:\n1. Rank these responses from BEST to WORST\n2. Rate each response on each criterion (1-5 scale, where 5 is best)\n3. For any rating of 3 or below, add a key \"CriterionName_reason\" with a brief justification (max 15 words)\n\nReturn ONLY a JSON object in this exact format:\n{\n  \"ranking\": [\"A2\", \"A0\", \"A1\"],\n  \"scores\": {\n    \"A0\": {\"${criteria[0]}\": 4, \"${criteria[1]}\": 3, \"${criteria[1]}_reason\": \"Brief reason\"},\n    \"A1\": {\"${criteria[0]}\": 5, \"${criteria[1]}\": 5}\n  }\n}\n\nRules:\n- \"ranking\" is an array of IDs from best to worst\n- \"scores\" maps each response ID to its criterion ratings (1-5)\n- For ratings <= 3, add \"CriterionName_reason\" with a short justification\n- For ratings > 3, no reason needed\n- No text outside the JSON.`;\n}\n\nfor (const model of models) {\n  const prompt = buildJudgePrompt(\n    'You are a judge evaluating AI responses.',\n    data.original_prompt, data.anonymized_responses, criteria, criteriaList\n  );\n  judge_tasks.push({json: {judge_model: model, judge_prompt: prompt, api_key, response_count: data.anonymized_responses.length, is_supreme: false, original_data: data}});\n}\n\nif (enableSupremeCourt) {\n  const SUPREME_JUDGES = ['openai/gpt-5.2-pro', 'anthropic/claude-opus-4.5', 'google/gemini-2.5-pro'];\n  const prompt = buildJudgePrompt(\n    'You are a Supreme Court judge evaluating AI responses with the highest standards.',\n    data.original_prompt, data.anonymized_responses, criteria, criteriaList\n  );\n  for (const model of SUPREME_JUDGES) {\n    judge_tasks.push({json: {judge_model: model, judge_prompt: prompt, api_key, response_count: data.anonymized_responses.length, is_supreme: true, original_data: data}});\n  }\n}\nreturn judge_tasks;\n"
+      }
+    },
+    {
+      "id": "get-rankings",
+      "name": "6. Get Rankings",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1420,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\n// 6. Get Rankings (Parallel)\nconst items = $input.all();\n\nconst promises = items.map(async (item) => {\n  const { judge_model, judge_prompt, api_key, response_count, is_supreme, original_data } = item.json;\n\n  try {\n    const data = await this.helpers.httpRequest({\n      method: 'POST',\n      url: 'https://openrouter.ai/api/v1/chat/completions',\n      headers: {\n        'Authorization': `Bearer ${api_key}`,\n        'Content-Type': 'application/json'\n      },\n      body: {\n        model: judge_model,\n        messages: [{role: 'user', content: judge_prompt}],\n        max_tokens: 2500,\n        temperature: 0.3\n      },\n      json: true,\n      timeout: 60000\n    });\n\n    return {json: {...data, model: data.model || judge_model, is_supreme, original_data}};\n  } catch (e) {\n    const status = e.statusCode || e.response?.status || 0;\n    const msg = e.message || 'Unknown error';\n    return {json: {error: {status, message: msg}, model: judge_model, is_supreme, original_data}};\n  }\n});\n\nconst results = await Promise.all(promises);\nreturn results;\n",
+        "mode": "runOnceForAllItems"
+      }
+    },
+    {
+      "id": "aggregate",
+      "name": "7. Aggregate Rankings",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1640,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\n// Check for error from V2\nconst originalDataV2 = $items('V2. Inject Responses')[0].json;\nif (originalDataV2._error) return [{json: originalDataV2}];\n\n// Get criteria from the parse-criteria node (4c) if available\nlet original_data = originalDataV2;\ntry {\n  const parsedCriteria = $items('4c. Parse Criteria')[0].json;\n  if (parsedCriteria && parsedCriteria.evaluation_criteria) {\n    original_data = parsedCriteria;\n  }\n} catch(e) {}\n\nconst rankings_by_judge = [];\nconst response_count = original_data.anonymized_responses.length;\nconst enableSupremeCourt = original_data.enable_supreme_court;\nconst validAnonIds = new Set(original_data.anonymized_responses.map(r => r.id));\n\nconst criteria = original_data.evaluation_criteria || [];\nconst criteria_scores_by_judge = [];\n\nconst cost_by_model = {};\nfor (const item of $input.all()) {\n  if (item.json.error) continue;\n  const model_name = item.json.model;\n  const cost = item.json.usage?.cost || 0;\n  if (!cost_by_model[model_name]) cost_by_model[model_name] = 0;\n  cost_by_model[model_name] += cost;\n}\n\nconst node6Items = $input.all();\nfor (let i = 0; i < node6Items.length; i++) {\n  const item = node6Items[i];\n  try {\n    if (item.json.error) continue;\n    const response_text = item.json.choices[0].message.content;\n    const isSupreme = item.json.is_supreme || false;\n\n    let ranking = null;\n    let scores = null;\n\n    // Strategy 1: Try structured JSON with ranking + scores\n    const objMatch = response_text.match(/\\{[\\s\\S]*\"ranking\"[\\s\\S]*\\}/);\n    if (objMatch) {\n      try {\n        const parsed = JSON.parse(objMatch[0]);\n        if (Array.isArray(parsed.ranking)) {\n          ranking = parsed.ranking.filter(id => validAnonIds.has(id));\n          if (parsed.scores && typeof parsed.scores === 'object') {\n            scores = parsed.scores;\n          }\n        }\n      } catch (e) {}\n    }\n\n    // Strategy 2 (fallback): Old format - just a JSON array\n    if (!ranking || ranking.length === 0) {\n      const arrMatch = response_text.match(/\\[.*?\\]/s);\n      if (arrMatch) {\n        try {\n          ranking = JSON.parse(arrMatch[0]).filter(id => validAnonIds.has(id));\n        } catch(e) {}\n      }\n    }\n\n    if (!ranking || ranking.length === 0) continue;\n    rankings_by_judge.push({judge_model: item.json.model, ranking, is_supreme: isSupreme});\n\n    if (scores && criteria.length > 0) {\n      criteria_scores_by_judge.push({\n        judge_model: item.json.model,\n        is_supreme: isSupreme,\n        scores: scores\n      });\n    }\n  } catch (e) {}\n}\n\nfunction calculateBorda(rankings, response_count) {\n  const borda_scores = {};\n  original_data.anonymized_responses.forEach(r => { borda_scores[r.id] = 0; });\n  for (const judge_result of rankings) {\n    judge_result.ranking.forEach((anon_id, position) => {\n      if (!validAnonIds.has(anon_id)) return;\n      const points = response_count - 1 - position;\n      borda_scores[anon_id] = (borda_scores[anon_id] || 0) + points;\n    });\n  }\n  return borda_scores;\n}\n\nconst regularRankings = rankings_by_judge.filter(j => !j.is_supreme);\nconst supremeRankings = rankings_by_judge.filter(j => j.is_supreme);\nconst regularBorda = calculateBorda(regularRankings, response_count);\nconst supremeBorda = enableSupremeCourt && supremeRankings.length > 0 ? calculateBorda(supremeRankings, response_count) : {};\n\nconst unifiedScores = {};\nfor (const anon_id of Object.keys(regularBorda)) {\n  unifiedScores[anon_id] = (regularBorda[anon_id] || 0) + ((supremeBorda[anon_id] || 0) * 2);\n}\n\nconst unified_ranking = Object.entries(unifiedScores)\n  .sort((a, b) => b[1] - a[1])\n  .map(([anon_id, score]) => {\n    const mapping = original_data.model_mapping.find(m => m.anon_id === anon_id);\n    if (!mapping) return null;\n    const response = original_data.responses.find(r => r.model_id === mapping.model_id);\n    if (!response) return null;\n    return {\n      rank: null, anon_id, model: mapping.real_model, unified_score: score,\n      regular_borda: regularBorda[anon_id] || 0, supreme_borda: supremeBorda[anon_id] || 0,\n      cost: cost_by_model[mapping.real_model] || 0,\n      response_preview: response.response_text.substring(0, 100) + '...'\n    };\n  }).filter(Boolean);\nunified_ranking.forEach((item, idx) => { item.rank = idx + 1; });\n\n// Aggregate criteria scores per anonymized response\nconst criteria_aggregated = {};\nif (criteria.length > 0 && criteria_scores_by_judge.length > 0) {\n  for (const anonResp of original_data.anonymized_responses) {\n    const aId = anonResp.id;\n    criteria_aggregated[aId] = {};\n    for (const criterion of criteria) {\n      const allScores = [];\n      const allReasons = [];\n      for (const judgeEntry of criteria_scores_by_judge) {\n        const respScores = judgeEntry.scores[aId];\n        if (respScores && typeof respScores[criterion] === 'number') {\n          allScores.push(respScores[criterion]);\n        }\n        if (respScores && respScores[criterion + '_reason']) {\n          allReasons.push(respScores[criterion + '_reason']);\n        }\n      }\n      criteria_aggregated[aId][criterion] = {\n        avg: allScores.length > 0 ? +(allScores.reduce((a, b) => a + b, 0) / allScores.length).toFixed(2) : null,\n        scores: allScores,\n        reasons: allReasons\n      };\n    }\n  }\n}\n\nreturn [{json: {\n  original_prompt: original_data.original_prompt || 'Prompt non disponible',\n  raw_responses: original_data.responses,\n  rankings_by_judge, enable_supreme_court: enableSupremeCourt,\n  final_ranking: unified_ranking,\n  evaluation_criteria: criteria,\n  criteria_source: original_data.criteria_source || 'unknown',\n  criteria_scores_by_judge,\n  criteria_aggregated,\n  human_winner: original_data.human_winner,\n  human_winner_side: original_data.human_winner_side,\n  eval_id: original_data.eval_id,\n  summary: {\n    total_judges: regularRankings.length, total_supreme_judges: supremeRankings.length,\n    total_responses: response_count, winner: unified_ranking[0],\n    method: enableSupremeCourt ? 'Borda Count (Weighted: Regular 1x + Supreme 2x)' : 'Borda Count',\n    total_cost: Object.values(cost_by_model).reduce((a, b) => a + b, 0)\n  }\n}}];\n"
+      }
+    },
+    {
+      "id": "v3-compare",
+      "name": "V3. Compare & Output",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1860,
+        300
+      ],
+      "parameters": {
+        "jsCode": "\n// V3. Compare AI verdict vs Human verdict\nconst data = $input.first().json;\nif (data._error) return [{json: data}];\n\nconst aiWinner = data.final_ranking && data.final_ranking[0] ? data.final_ranking[0].model : null;\nconst humanWinner = data.human_winner || '';\nconst evalId = data.eval_id || '';\n\n// Compare\nconst match = aiWinner && humanWinner && aiWinner === humanWinner;\n\n// Calculate confidence: difference between 1st and 2nd score\nlet confidence = 0;\nif (data.final_ranking && data.final_ranking.length >= 2) {\n  const topScore = data.final_ranking[0].unified_score;\n  const secondScore = data.final_ranking[1].unified_score;\n  const maxPossible = data.summary?.total_judges || 1;\n  confidence = maxPossible > 0 ? (topScore - secondScore) / maxPossible : 0;\n}\n\nreturn [{json: {\n  eval_id: evalId,\n  prompt: data.original_prompt,\n  human_winner: humanWinner,\n  ai_winner: aiWinner,\n  match: match,\n  confidence: +confidence.toFixed(3),\n  ai_ranking: data.final_ranking ? data.final_ranking.map(r => r.model) : [],\n  judge_matrix: data.rankings_by_judge,\n  evaluation_criteria: data.evaluation_criteria,\n  criteria_detail: data.criteria_aggregated,\n  summary: data.summary,\n  timestamp: new Date().toISOString()\n}}];\n"
+      }
+    },
+    {
+      "id": "v4-log",
+      "name": "V4. Prepare Log",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2080,
+        400
+      ],
+      "parameters": {
+        "jsCode": "\n// V4. Prepare Log Entry for Battle Runs Log\ntry {\n  const data = $input.first().json;\n  if (data._error) return [{json: {_skip: true}}];\n\n  const logEntry = {\n    timestamp: data.timestamp || new Date().toISOString(),\n    prompt: (data.prompt || '').substring(0, 2000),\n    models: JSON.stringify(data.ai_ranking || []),\n    temperature: 0,\n    max_tokens: 0,\n    supreme_court: data.summary?.total_supreme_judges > 0 || false,\n    winner_model: data.ai_winner || '',\n    winner_score: data.summary?.winner?.unified_score || 0,\n    consensus: false,\n    models_ranking: JSON.stringify(data.ai_ranking || []),\n    judge_matrix: JSON.stringify(data.judge_matrix || []),\n    total_cost: data.summary?.total_cost || 0,\n    total_judges: data.summary?.total_judges || 0,\n    status: 'validation',\n    error_message: '',\n    evaluation_criteria: JSON.stringify(data.evaluation_criteria || []),\n    criteria_detail: JSON.stringify(data.criteria_detail || [])\n  };\n\n  // Add eval_id for linking\n  if (data.eval_id) logEntry.eval_id = data.eval_id;\n\n  return [{json: logEntry}];\n} catch (err) {\n  return [{json: {_skip: true}}];\n}\n"
+      }
+    },
+    {
+      "id": "dt-log",
+      "name": "V5. Save to Battle Runs Log",
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        2300,
+        400
+      ],
+      "parameters": {
+        "dataTableId": {
+          "mode": "id",
+          "value": "nHV6JyHqW773Yf7e"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": null
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "respond",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        2080,
+        200
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}"
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "V1. Parse Input",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "V1. Parse Input": {
+      "main": [
+        [
+          {
+            "node": "V2. Inject Responses",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "V2. Inject Responses": {
+      "main": [
+        [
+          {
+            "node": "4b. Generate Criteria",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "4b. Generate Criteria": {
+      "main": [
+        [
+          {
+            "node": "4c. Parse Criteria",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "4c. Parse Criteria": {
+      "main": [
+        [
+          {
+            "node": "5. Prepare Judge Tasks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5. Prepare Judge Tasks": {
+      "main": [
+        [
+          {
+            "node": "6. Get Rankings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "6. Get Rankings": {
+      "main": [
+        [
+          {
+            "node": "7. Aggregate Rankings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "7. Aggregate Rankings": {
+      "main": [
+        [
+          {
+            "node": "V3. Compare & Output",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "V3. Compare & Output": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "V4. Prepare Log",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "V4. Prepare Log": {
+      "main": [
+        [
+          {
+            "node": "V5. Save to Battle Runs Log",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "saveManualExecutions": true,
+    "saveExecutionProgress": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  }
+}

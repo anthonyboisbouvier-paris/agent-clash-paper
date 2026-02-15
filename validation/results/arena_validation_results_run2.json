@@ -1,0 +1,1815 @@
+{
+  "dataset": "Chatbot Arena (lmarena-ai/arena-human-preference-100k)",
+  "run": 2,
+  "description": "Full retest of all 100 evaluations for reproducibility analysis",
+  "timestamp": "2026-02-14T10:55:14.709318",
+  "total_evaluations": 100,
+  "total_valid": 100,
+  "total_matches": 75,
+  "total_errors": 0,
+  "concordance_rate": 75.0,
+  "total_cost": 14.9411,
+  "avg_time_per_eval": 43.2,
+  "results": [
+    {
+      "eval_id": 1,
+      "human_winner": "claude-3-opus",
+      "ai_winner": "claude-3-opus",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-3-opus",
+        "nemotron-340b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.18913625,
+      "elapsed_s": 39.5,
+      "model_a": "nemotron-340b",
+      "model_b": "claude-3-opus",
+      "error": null
+    },
+    {
+      "eval_id": 2,
+      "human_winner": "mistral-large-2",
+      "ai_winner": "mistral-large-2",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "mistral-large-2",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13923875000000002,
+      "elapsed_s": 38.3,
+      "model_a": "mistral-large-2",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 3,
+      "human_winner": "deepseek-v2",
+      "ai_winner": "gemini-1.5-flash",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-flash",
+        "deepseek-v2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.35325249999999997,
+      "elapsed_s": 46.8,
+      "model_a": "deepseek-v2",
+      "model_b": "gemini-1.5-flash",
+      "error": null
+    },
+    {
+      "eval_id": 4,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "yi-large-preview"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.53877025,
+      "elapsed_s": 108.1,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "yi-large-preview",
+      "error": null
+    },
+    {
+      "eval_id": 5,
+      "human_winner": "yi-large",
+      "ai_winner": "yi-large",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "yi-large",
+        "gemini-1.5-pro"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12015699999999999,
+      "elapsed_s": 32.0,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "yi-large",
+      "error": null
+    },
+    {
+      "eval_id": 6,
+      "human_winner": "mistral-large-2",
+      "ai_winner": "mistral-large-2",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "mistral-large-2",
+        "gpt-4-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.088562,
+      "elapsed_s": 31.9,
+      "model_a": "gpt-4-turbo",
+      "model_b": "mistral-large-2",
+      "error": null
+    },
+    {
+      "eval_id": 7,
+      "human_winner": "llama-3.1-405b",
+      "ai_winner": "llama-3.1-405b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "llama-3.1-405b",
+        "claude-3-opus"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14437275,
+      "elapsed_s": 43.1,
+      "model_a": "claude-3-opus",
+      "model_b": "llama-3.1-405b",
+      "error": null
+    },
+    {
+      "eval_id": 8,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1257975,
+      "elapsed_s": 35.3,
+      "model_a": "mistral-large-2",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 9,
+      "human_winner": "gpt-4o",
+      "ai_winner": "yi-large-preview",
+      "match": false,
+      "confidence": 3,
+      "ai_ranking": [
+        "yi-large-preview",
+        "gpt-4o"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11443299999999999,
+      "elapsed_s": 37.5,
+      "model_a": "gpt-4o",
+      "model_b": "yi-large-preview",
+      "error": null
+    },
+    {
+      "eval_id": 10,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "claude-3-opus"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.07520575,
+      "elapsed_s": 27.3,
+      "model_a": "claude-3-opus",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 11,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4o",
+        "qwen2-72b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13219050000000002,
+      "elapsed_s": 46.3,
+      "model_a": "qwen2-72b",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 12,
+      "human_winner": "gpt-4o-aug",
+      "ai_winner": "gpt-4o-aug",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-4o-aug",
+        "gpt-4-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 2,
+      "cost": 0.173212625,
+      "elapsed_s": 51.1,
+      "model_a": "gpt-4o-aug",
+      "model_b": "gpt-4-turbo",
+      "error": null
+    },
+    {
+      "eval_id": 13,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "gemini-1.5-pro",
+      "match": false,
+      "confidence": 3,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.15665125,
+      "elapsed_s": 32.8,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 14,
+      "human_winner": "gemini-1.5-pro",
+      "ai_winner": "gemini-1.5-pro",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1557635,
+      "elapsed_s": 37.9,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 15,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "command-r-plus"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.16771025,
+      "elapsed_s": 49.5,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "command-r-plus",
+      "error": null
+    },
+    {
+      "eval_id": 16,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "command-r-plus"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.14145675000000002,
+      "elapsed_s": 33.6,
+      "model_a": "command-r-plus",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 17,
+      "human_winner": "gemini-1.5-pro",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "gemini-1.5-pro"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.172138,
+      "elapsed_s": 70.2,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gemini-1.5-pro",
+      "error": null
+    },
+    {
+      "eval_id": 18,
+      "human_winner": "yi-large",
+      "ai_winner": "deepseek-coder-v2",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "deepseek-coder-v2",
+        "yi-large"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.127733,
+      "elapsed_s": 36.3,
+      "model_a": "deepseek-coder-v2",
+      "model_b": "yi-large",
+      "error": null
+    },
+    {
+      "eval_id": 19,
+      "human_winner": "mixtral-8x22b",
+      "ai_winner": "mixtral-8x22b",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "mixtral-8x22b",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.17407099999999998,
+      "elapsed_s": 50.1,
+      "model_a": "mixtral-8x22b",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 20,
+      "human_winner": "deepseek-coder-v2",
+      "ai_winner": "deepseek-coder-v2",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "deepseek-coder-v2",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.38877075000000005,
+      "elapsed_s": 66.1,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "deepseek-coder-v2",
+      "error": null
+    },
+    {
+      "eval_id": 21,
+      "human_winner": "gpt-4o-mini",
+      "ai_winner": "gpt-4o-mini",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-4o-mini",
+        "gemini-1.5-pro-exp"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11524695,
+      "elapsed_s": 42.3,
+      "model_a": "gpt-4o-mini",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 22,
+      "human_winner": "llama-3-70b",
+      "ai_winner": "llama-3-70b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "llama-3-70b",
+        "qwen2-72b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.101365,
+      "elapsed_s": 36.1,
+      "model_a": "llama-3-70b",
+      "model_b": "qwen2-72b",
+      "error": null
+    },
+    {
+      "eval_id": 23,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4o",
+        "gemini-1.5-pro-exp"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13598475,
+      "elapsed_s": 37.1,
+      "model_a": "gemini-1.5-pro-exp",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 24,
+      "human_winner": "llama-3-70b",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "llama-3-70b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.19097825000000002,
+      "elapsed_s": 45.7,
+      "model_a": "llama-3-70b",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 25,
+      "human_winner": "gemini-1.5-pro",
+      "ai_winner": "gemini-1.5-pro",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "yi-large-preview"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.23853475000000002,
+      "elapsed_s": 87.5,
+      "model_a": "yi-large-preview",
+      "model_b": "gemini-1.5-pro",
+      "error": null
+    },
+    {
+      "eval_id": 26,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "gpt-4o"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.07511775,
+      "elapsed_s": 36.5,
+      "model_a": "gpt-4o",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 27,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-4o",
+        "llama-3.1-405b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 2,
+      "cost": 0.21031500000000003,
+      "elapsed_s": 52.3,
+      "model_a": "llama-3.1-405b",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 28,
+      "human_winner": "gpt-4o",
+      "ai_winner": "claude-3-opus",
+      "match": false,
+      "confidence": 1,
+      "ai_ranking": [
+        "claude-3-opus",
+        "gpt-4o"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.19603250000000003,
+      "elapsed_s": 53.1,
+      "model_a": "claude-3-opus",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 29,
+      "human_winner": "gpt-4-turbo-nov",
+      "ai_winner": "gpt-4-turbo-nov",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "gpt-4-turbo-nov",
+        "claude-3-opus"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1318995,
+      "elapsed_s": 31.2,
+      "model_a": "claude-3-opus",
+      "model_b": "gpt-4-turbo-nov",
+      "error": null
+    },
+    {
+      "eval_id": 30,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14835375,
+      "elapsed_s": 46.1,
+      "model_a": "mistral-large-2",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 31,
+      "human_winner": "llama-3-70b",
+      "ai_winner": "deepseek-coder-v2",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "deepseek-coder-v2",
+        "llama-3-70b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.20341824999999997,
+      "elapsed_s": 86.7,
+      "model_a": "deepseek-coder-v2",
+      "model_b": "llama-3-70b",
+      "error": null
+    },
+    {
+      "eval_id": 32,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "gpt-4-turbo-nov"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.132649,
+      "elapsed_s": 44.4,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gpt-4-turbo-nov",
+      "error": null
+    },
+    {
+      "eval_id": 33,
+      "human_winner": "gemini-1.5-pro",
+      "ai_winner": "gemini-1.5-pro",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "deepseek-coder-v2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0809395,
+      "elapsed_s": 22.2,
+      "model_a": "deepseek-coder-v2",
+      "model_b": "gemini-1.5-pro",
+      "error": null
+    },
+    {
+      "eval_id": 34,
+      "human_winner": "deepseek-v2",
+      "ai_winner": "gemini-1.5-flash",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-flash",
+        "deepseek-v2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12946649999999998,
+      "elapsed_s": 50.0,
+      "model_a": "gemini-1.5-flash",
+      "model_b": "deepseek-v2",
+      "error": null
+    },
+    {
+      "eval_id": 35,
+      "human_winner": "gemini-1.5-pro",
+      "ai_winner": "gemini-1.5-pro",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "claude-3-sonnet"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0875,
+      "elapsed_s": 27.4,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "claude-3-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 36,
+      "human_winner": "claude-3-sonnet",
+      "ai_winner": "claude-3-sonnet",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-3-sonnet",
+        "yi-large-preview"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.06712075,
+      "elapsed_s": 24.5,
+      "model_a": "claude-3-sonnet",
+      "model_b": "yi-large-preview",
+      "error": null
+    },
+    {
+      "eval_id": 37,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4o",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.10191275,
+      "elapsed_s": 24.7,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 38,
+      "human_winner": "gpt-4-turbo-jan",
+      "ai_winner": "claude-3-sonnet",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "claude-3-sonnet",
+        "gpt-4-turbo-jan"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0980485,
+      "elapsed_s": 28.9,
+      "model_a": "claude-3-sonnet",
+      "model_b": "gpt-4-turbo-jan",
+      "error": null
+    },
+    {
+      "eval_id": 39,
+      "human_winner": "gpt-4-turbo-nov",
+      "ai_winner": "gpt-4-turbo-nov",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gpt-4-turbo-nov",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.090548,
+      "elapsed_s": 39.2,
+      "model_a": "mistral-large-2",
+      "model_b": "gpt-4-turbo-nov",
+      "error": null
+    },
+    {
+      "eval_id": 40,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-4o",
+        "claude-3-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.220605,
+      "elapsed_s": 48.0,
+      "model_a": "gpt-4o",
+      "model_b": "claude-3-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 41,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "claude-3-opus"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.06585925000000001,
+      "elapsed_s": 39.4,
+      "model_a": "gemini-1.5-pro-exp",
+      "model_b": "claude-3-opus",
+      "error": null
+    },
+    {
+      "eval_id": 42,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": false,
+      "confidence": 5,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "chatgpt-4o"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.22291475000000002,
+      "elapsed_s": 70.2,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 43,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "gemini-1.5-pro"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.18315199999999998,
+      "elapsed_s": 57.3,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 44,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1580345,
+      "elapsed_s": 51.6,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 45,
+      "human_winner": "gpt-4-turbo-nov",
+      "ai_winner": "chatgpt-4o",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "gpt-4-turbo-nov"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1315005,
+      "elapsed_s": 25.4,
+      "model_a": "gpt-4-turbo-nov",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 46,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "nemotron-340b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.19154,
+      "elapsed_s": 55.7,
+      "model_a": "nemotron-340b",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 47,
+      "human_winner": "gpt-4o-aug",
+      "ai_winner": "llama-3.1-405b",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "llama-3.1-405b",
+        "gpt-4o-aug"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14900425,
+      "elapsed_s": 34.3,
+      "model_a": "gpt-4o-aug",
+      "model_b": "llama-3.1-405b",
+      "error": null
+    },
+    {
+      "eval_id": 48,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "llama-3-70b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.22428425000000002,
+      "elapsed_s": 46.5,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "llama-3-70b",
+      "error": null
+    },
+    {
+      "eval_id": 49,
+      "human_winner": "gpt-4-turbo",
+      "ai_winner": "gpt-4-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4-turbo",
+        "claude-3-opus"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13763,
+      "elapsed_s": 44.6,
+      "model_a": "claude-3-opus",
+      "model_b": "gpt-4-turbo",
+      "error": null
+    },
+    {
+      "eval_id": 50,
+      "human_winner": "gpt-4-turbo",
+      "ai_winner": "gpt-4-turbo",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4-turbo",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.12201375,
+      "elapsed_s": 22.7,
+      "model_a": "gpt-4-turbo",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 51,
+      "human_winner": "claude-3-opus",
+      "ai_winner": "claude-3-opus",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "claude-3-opus",
+        "gemini-1.5-pro-exp"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.11289225,
+      "elapsed_s": 48.5,
+      "model_a": "claude-3-opus",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 52,
+      "human_winner": "nemotron-340b",
+      "ai_winner": "nemotron-340b",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "nemotron-340b",
+        "deepseek-v2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14869200000000002,
+      "elapsed_s": 51.8,
+      "model_a": "nemotron-340b",
+      "model_b": "deepseek-v2",
+      "error": null
+    },
+    {
+      "eval_id": 53,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "chatgpt-4o",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "gemini-1.5-pro-exp"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12001125000000001,
+      "elapsed_s": 43.3,
+      "model_a": "chatgpt-4o",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 54,
+      "human_winner": "llama-3.1-405b",
+      "ai_winner": "llama-3.1-405b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "llama-3.1-405b",
+        "chatgpt-4o"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.246764,
+      "elapsed_s": 70.0,
+      "model_a": "llama-3.1-405b",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 55,
+      "human_winner": "llama-3.1-405b",
+      "ai_winner": "gpt-4o-aug",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "gpt-4o-aug",
+        "llama-3.1-405b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1333875,
+      "elapsed_s": 43.9,
+      "model_a": "gpt-4o-aug",
+      "model_b": "llama-3.1-405b",
+      "error": null
+    },
+    {
+      "eval_id": 56,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-4o",
+        "deepseek-v2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.14117274999999999,
+      "elapsed_s": 42.2,
+      "model_a": "deepseek-v2",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 57,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "gpt-4-turbo-jan"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.16385475,
+      "elapsed_s": 52.7,
+      "model_a": "gpt-4-turbo-jan",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 58,
+      "human_winner": "gpt-4-turbo-jan",
+      "ai_winner": "gpt-4-turbo-jan",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gpt-4-turbo-jan",
+        "nemotron-340b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12560500000000002,
+      "elapsed_s": 25.7,
+      "model_a": "gpt-4-turbo-jan",
+      "model_b": "nemotron-340b",
+      "error": null
+    },
+    {
+      "eval_id": 59,
+      "human_winner": "gpt-4-turbo-nov",
+      "ai_winner": "gpt-4-turbo-nov",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gpt-4-turbo-nov",
+        "llama-3-70b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.09540825,
+      "elapsed_s": 39.5,
+      "model_a": "gpt-4-turbo-nov",
+      "model_b": "llama-3-70b",
+      "error": null
+    },
+    {
+      "eval_id": 60,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gemini-1.5-pro",
+      "match": false,
+      "confidence": 1,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "gpt-4o"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.12454024999999999,
+      "elapsed_s": 43.4,
+      "model_a": "gpt-4o",
+      "model_b": "gemini-1.5-pro",
+      "error": null
+    },
+    {
+      "eval_id": 61,
+      "human_winner": "claude-3-opus",
+      "ai_winner": "claude-3-opus",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-3-opus",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.09216074999999999,
+      "elapsed_s": 45.1,
+      "model_a": "claude-3-opus",
+      "model_b": "mistral-large-2",
+      "error": null
+    },
+    {
+      "eval_id": 62,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "gemini-1.5-flash"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.24619725000000003,
+      "elapsed_s": 67.6,
+      "model_a": "chatgpt-4o",
+      "model_b": "gemini-1.5-flash",
+      "error": null
+    },
+    {
+      "eval_id": 63,
+      "human_winner": "llama-3.1-405b",
+      "ai_winner": "claude-3-opus",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-3-opus",
+        "llama-3.1-405b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.11980850000000001,
+      "elapsed_s": 40.1,
+      "model_a": "llama-3.1-405b",
+      "model_b": "claude-3-opus",
+      "error": null
+    },
+    {
+      "eval_id": 64,
+      "human_winner": "llama-3.1-70b",
+      "ai_winner": "llama-3.1-70b",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "llama-3.1-70b",
+        "mixtral-8x22b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12631625000000002,
+      "elapsed_s": 32.6,
+      "model_a": "llama-3.1-70b",
+      "model_b": "mixtral-8x22b",
+      "error": null
+    },
+    {
+      "eval_id": 65,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-4o",
+        "llama-3-70b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.072619,
+      "elapsed_s": 24.6,
+      "model_a": "gpt-4o",
+      "model_b": "llama-3-70b",
+      "error": null
+    },
+    {
+      "eval_id": 66,
+      "human_winner": "llama-3.1-70b",
+      "ai_winner": "llama-3.1-70b",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "llama-3.1-70b",
+        "chatgpt-4o"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14393699999999998,
+      "elapsed_s": 54.9,
+      "model_a": "chatgpt-4o",
+      "model_b": "llama-3.1-70b",
+      "error": null
+    },
+    {
+      "eval_id": 67,
+      "human_winner": "mistral-large-2",
+      "ai_winner": "qwen2-72b",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "qwen2-72b",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0976865,
+      "elapsed_s": 27.8,
+      "model_a": "mistral-large-2",
+      "model_b": "qwen2-72b",
+      "error": null
+    },
+    {
+      "eval_id": 68,
+      "human_winner": "mixtral-8x22b",
+      "ai_winner": "mixtral-8x22b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "mixtral-8x22b",
+        "chatgpt-4o"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12690525,
+      "elapsed_s": 42.6,
+      "model_a": "chatgpt-4o",
+      "model_b": "mixtral-8x22b",
+      "error": null
+    },
+    {
+      "eval_id": 69,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "gpt-4o"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.119221,
+      "elapsed_s": 53.1,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 70,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "gemini-1.5-pro",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.07761475,
+      "elapsed_s": 28.2,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gemini-1.5-pro",
+      "error": null
+    },
+    {
+      "eval_id": 71,
+      "human_winner": "yi-large",
+      "ai_winner": "yi-large",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "yi-large",
+        "gpt-4"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.16307249999999998,
+      "elapsed_s": 29.1,
+      "model_a": "yi-large",
+      "model_b": "gpt-4",
+      "error": null
+    },
+    {
+      "eval_id": 72,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4o",
+        "deepseek-v2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13680725,
+      "elapsed_s": 36.1,
+      "model_a": "deepseek-v2",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 73,
+      "human_winner": "gemini-1.5-pro",
+      "ai_winner": "gemini-1.5-pro",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gemini-1.5-pro",
+        "gpt-4"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.14260075,
+      "elapsed_s": 33.6,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "gpt-4",
+      "error": null
+    },
+    {
+      "eval_id": 74,
+      "human_winner": "deepseek-v2",
+      "ai_winner": "deepseek-v2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "deepseek-v2",
+        "claude-3-sonnet"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0617395,
+      "elapsed_s": 46.1,
+      "model_a": "claude-3-sonnet",
+      "model_b": "deepseek-v2",
+      "error": null
+    },
+    {
+      "eval_id": 75,
+      "human_winner": "llama-3.1-70b",
+      "ai_winner": "qwen2-72b",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "qwen2-72b",
+        "llama-3.1-70b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12329625,
+      "elapsed_s": 36.2,
+      "model_a": "qwen2-72b",
+      "model_b": "llama-3.1-70b",
+      "error": null
+    },
+    {
+      "eval_id": 76,
+      "human_winner": "gemini-1.5-flash",
+      "ai_winner": "gemini-1.5-flash",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-flash",
+        "nemotron-340b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.13214425,
+      "elapsed_s": 43.4,
+      "model_a": "nemotron-340b",
+      "model_b": "gemini-1.5-flash",
+      "error": null
+    },
+    {
+      "eval_id": 77,
+      "human_winner": "gpt-4-turbo-nov",
+      "ai_winner": "gpt-4-turbo",
+      "match": false,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-4-turbo",
+        "gpt-4-turbo-nov"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.12673074999999998,
+      "elapsed_s": 38.0,
+      "model_a": "gpt-4-turbo",
+      "model_b": "gpt-4-turbo-nov",
+      "error": null
+    },
+    {
+      "eval_id": 78,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "gpt-4o",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.18258149999999998,
+      "elapsed_s": 37.8,
+      "model_a": "gpt-4o",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 79,
+      "human_winner": "chatgpt-4o",
+      "ai_winner": "chatgpt-4o",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "chatgpt-4o",
+        "gemini-1.5-pro"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.18409475,
+      "elapsed_s": 50.8,
+      "model_a": "gemini-1.5-pro",
+      "model_b": "chatgpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 80,
+      "human_winner": "mistral-large-2",
+      "ai_winner": "deepseek-v2",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "deepseek-v2",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.146559,
+      "elapsed_s": 49.4,
+      "model_a": "deepseek-v2",
+      "model_b": "mistral-large-2",
+      "error": null
+    },
+    {
+      "eval_id": 81,
+      "human_winner": "llama-3-70b",
+      "ai_winner": "llama-3-70b",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "llama-3-70b",
+        "mixtral-8x22b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.11454349999999999,
+      "elapsed_s": 41.0,
+      "model_a": "llama-3-70b",
+      "model_b": "mixtral-8x22b",
+      "error": null
+    },
+    {
+      "eval_id": 82,
+      "human_winner": "gpt-4o",
+      "ai_winner": "gpt-4o",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4o",
+        "mixtral-8x22b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.12453725,
+      "elapsed_s": 29.5,
+      "model_a": "mixtral-8x22b",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 83,
+      "human_winner": "claude-3-opus",
+      "ai_winner": "gpt-4-turbo",
+      "match": false,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-4-turbo",
+        "claude-3-opus"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.20933825000000003,
+      "elapsed_s": 56.8,
+      "model_a": "gpt-4-turbo",
+      "model_b": "claude-3-opus",
+      "error": null
+    },
+    {
+      "eval_id": 84,
+      "human_winner": "mistral-large-2",
+      "ai_winner": "mistral-large-2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "mistral-large-2",
+        "gemini-1.5-pro"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.16321575,
+      "elapsed_s": 39.3,
+      "model_a": "mistral-large-2",
+      "model_b": "gemini-1.5-pro",
+      "error": null
+    },
+    {
+      "eval_id": 85,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "llama-3.1-405b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10846349999999999,
+      "elapsed_s": 38.3,
+      "model_a": "llama-3.1-405b",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 86,
+      "human_winner": "yi-large-preview",
+      "ai_winner": "yi-large-preview",
+      "match": true,
+      "confidence": 8,
+      "ai_ranking": [
+        "yi-large-preview",
+        "claude-3-haiku"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10160374999999999,
+      "elapsed_s": 30.0,
+      "model_a": "yi-large-preview",
+      "model_b": "claude-3-haiku",
+      "error": null
+    },
+    {
+      "eval_id": 87,
+      "human_winner": "gemini-1.5-flash",
+      "ai_winner": "gemini-1.5-flash",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-flash",
+        "qwen2-72b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.165532,
+      "elapsed_s": 44.2,
+      "model_a": "qwen2-72b",
+      "model_b": "gemini-1.5-flash",
+      "error": null
+    },
+    {
+      "eval_id": 88,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "gpt-4o",
+      "match": false,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4o",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.15734225,
+      "elapsed_s": 35.8,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gpt-4o",
+      "error": null
+    },
+    {
+      "eval_id": 89,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "command-r-plus"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.10579724999999998,
+      "elapsed_s": 31.1,
+      "model_a": "gemini-1.5-pro-exp",
+      "model_b": "command-r-plus",
+      "error": null
+    },
+    {
+      "eval_id": 90,
+      "human_winner": "claude-3.5-sonnet",
+      "ai_winner": "claude-3.5-sonnet",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "claude-3.5-sonnet",
+        "gpt-4"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.14749725000000002,
+      "elapsed_s": 37.5,
+      "model_a": "claude-3.5-sonnet",
+      "model_b": "gpt-4",
+      "error": null
+    },
+    {
+      "eval_id": 91,
+      "human_winner": "command-r-plus",
+      "ai_winner": "command-r-plus",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "command-r-plus",
+        "deepseek-coder-v2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14317649999999998,
+      "elapsed_s": 23.5,
+      "model_a": "command-r-plus",
+      "model_b": "deepseek-coder-v2",
+      "error": null
+    },
+    {
+      "eval_id": 92,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "mistral-large-2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1017965,
+      "elapsed_s": 24.0,
+      "model_a": "mistral-large-2",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 93,
+      "human_winner": "gpt-4o-aug",
+      "ai_winner": "gpt-4o-aug",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gpt-4o-aug",
+        "llama-3-70b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.16732124999999998,
+      "elapsed_s": 43.8,
+      "model_a": "gpt-4o-aug",
+      "model_b": "llama-3-70b",
+      "error": null
+    },
+    {
+      "eval_id": 94,
+      "human_winner": "gemini-1.5-flash",
+      "ai_winner": "gemini-1.5-flash",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gemini-1.5-flash",
+        "claude-3-haiku"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.18695125,
+      "elapsed_s": 48.1,
+      "model_a": "gemini-1.5-flash",
+      "model_b": "claude-3-haiku",
+      "error": null
+    },
+    {
+      "eval_id": 95,
+      "human_winner": "claude-3-haiku",
+      "ai_winner": "claude-3-haiku",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "claude-3-haiku",
+        "claude-3.5-sonnet"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.18251,
+      "elapsed_s": 44.9,
+      "model_a": "claude-3-haiku",
+      "model_b": "claude-3.5-sonnet",
+      "error": null
+    },
+    {
+      "eval_id": 96,
+      "human_winner": "deepseek-v2",
+      "ai_winner": "deepseek-v2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "deepseek-v2",
+        "nemotron-340b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12660125,
+      "elapsed_s": 44.3,
+      "model_a": "nemotron-340b",
+      "model_b": "deepseek-v2",
+      "error": null
+    },
+    {
+      "eval_id": 97,
+      "human_winner": "llama-3.1-70b",
+      "ai_winner": "llama-3.1-70b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "llama-3.1-70b",
+        "yi-large-preview"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.15559800000000001,
+      "elapsed_s": 63.4,
+      "model_a": "llama-3.1-70b",
+      "model_b": "yi-large-preview",
+      "error": null
+    },
+    {
+      "eval_id": 98,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "gpt-4o-mini"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1104475,
+      "elapsed_s": 31.4,
+      "model_a": "gpt-4o-mini",
+      "model_b": "gemini-1.5-pro-exp",
+      "error": null
+    },
+    {
+      "eval_id": 99,
+      "human_winner": "gemini-1.5-pro-exp",
+      "ai_winner": "gemini-1.5-pro-exp",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "gemini-1.5-pro-exp",
+        "qwen2-72b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14799475,
+      "elapsed_s": 59.1,
+      "model_a": "gemini-1.5-pro-exp",
+      "model_b": "qwen2-72b",
+      "error": null
+    },
+    {
+      "eval_id": 100,
+      "human_winner": "llama-3.1-70b",
+      "ai_winner": "llama-3.1-405b",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "llama-3.1-405b",
+        "llama-3.1-70b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.16583350000000002,
+      "elapsed_s": 54.3,
+      "model_a": "llama-3.1-405b",
+      "model_b": "llama-3.1-70b",
+      "error": null
+    }
+  ]
+}

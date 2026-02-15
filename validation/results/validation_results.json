@@ -1,0 +1,1609 @@
+{
+  "timestamp": "2026-02-13T22:25:45.840973",
+  "total_evaluations": 100,
+  "total_valid": 100,
+  "total_matches": 88,
+  "total_errors": 0,
+  "concordance_rate": 88.0,
+  "total_cost": 12.8591,
+  "avg_time_per_eval": 37.8,
+  "results": [
+    {
+      "eval_id": 1,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.14043025,
+      "elapsed_s": 46.2,
+      "error": null
+    },
+    {
+      "eval_id": 2,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1090725,
+      "elapsed_s": 36.7,
+      "error": null
+    },
+    {
+      "eval_id": 3,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 2,
+      "ai_ranking": [
+        "claude-v1",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1493045,
+      "elapsed_s": 43.4,
+      "error": null
+    },
+    {
+      "eval_id": 4,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.2246685,
+      "elapsed_s": 56.2,
+      "error": null
+    },
+    {
+      "eval_id": 5,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10677799999999998,
+      "elapsed_s": 39.0,
+      "error": null
+    },
+    {
+      "eval_id": 6,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-4",
+        "claude-v1"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.168725,
+      "elapsed_s": 36.9,
+      "error": null
+    },
+    {
+      "eval_id": 7,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.09034875,
+      "elapsed_s": 35.3,
+      "error": null
+    },
+    {
+      "eval_id": 8,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0890485,
+      "elapsed_s": 23.7,
+      "error": null
+    },
+    {
+      "eval_id": 9,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.0986715,
+      "elapsed_s": 27.9,
+      "error": null
+    },
+    {
+      "eval_id": 10,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "alpaca-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.119336,
+      "elapsed_s": 46.1,
+      "error": null
+    },
+    {
+      "eval_id": 11,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13356725,
+      "elapsed_s": 45.8,
+      "error": null
+    },
+    {
+      "eval_id": 12,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "claude-v1",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.12430449999999998,
+      "elapsed_s": 48.6,
+      "error": null
+    },
+    {
+      "eval_id": 13,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.13162975,
+      "elapsed_s": 34.6,
+      "error": null
+    },
+    {
+      "eval_id": 14,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "alpaca-13b",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "alpaca-13b",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0865365,
+      "elapsed_s": 23.4,
+      "error": null
+    },
+    {
+      "eval_id": 15,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.177323,
+      "elapsed_s": 45.5,
+      "error": null
+    },
+    {
+      "eval_id": 16,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.154285,
+      "elapsed_s": 20.9,
+      "error": null
+    },
+    {
+      "eval_id": 17,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10199849999999999,
+      "elapsed_s": 28.2,
+      "error": null
+    },
+    {
+      "eval_id": 18,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.1682215,
+      "elapsed_s": 41.5,
+      "error": null
+    },
+    {
+      "eval_id": 19,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.18012625000000002,
+      "elapsed_s": 42.9,
+      "error": null
+    },
+    {
+      "eval_id": 20,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-v1",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.09126975,
+      "elapsed_s": 42.4,
+      "error": null
+    },
+    {
+      "eval_id": 21,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "alpaca-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1441055,
+      "elapsed_s": 49.4,
+      "error": null
+    },
+    {
+      "eval_id": 22,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.100329,
+      "elapsed_s": 24.1,
+      "error": null
+    },
+    {
+      "eval_id": 23,
+      "human_winner": "claude-v1",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": false,
+      "confidence": 2,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "claude-v1"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12024325000000001,
+      "elapsed_s": 46.5,
+      "error": null
+    },
+    {
+      "eval_id": 24,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "alpaca-13b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "alpaca-13b",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12025725,
+      "elapsed_s": 45.0,
+      "error": null
+    },
+    {
+      "eval_id": 25,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 1,
+      "ai_ranking": [
+        "gpt-4",
+        "claude-v1"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.26133175,
+      "elapsed_s": 84.4,
+      "error": null
+    },
+    {
+      "eval_id": 26,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.23898049999999998,
+      "elapsed_s": 84.1,
+      "error": null
+    },
+    {
+      "eval_id": 27,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.16041075,
+      "elapsed_s": 47.2,
+      "error": null
+    },
+    {
+      "eval_id": 28,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.18505549999999998,
+      "elapsed_s": 48.3,
+      "error": null
+    },
+    {
+      "eval_id": 29,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "alpaca-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.140024,
+      "elapsed_s": 35.7,
+      "error": null
+    },
+    {
+      "eval_id": 30,
+      "human_winner": "llama-13b",
+      "ai_winner": "alpaca-13b",
+      "match": false,
+      "confidence": 6,
+      "ai_ranking": [
+        "alpaca-13b",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0829705,
+      "elapsed_s": 29.6,
+      "error": null
+    },
+    {
+      "eval_id": 31,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.13340975,
+      "elapsed_s": 50.3,
+      "error": null
+    },
+    {
+      "eval_id": 32,
+      "human_winner": "llama-13b",
+      "ai_winner": "gpt-4",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1420685,
+      "elapsed_s": 57.5,
+      "error": null
+    },
+    {
+      "eval_id": 33,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11996575000000001,
+      "elapsed_s": 36.5,
+      "error": null
+    },
+    {
+      "eval_id": 34,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11916850000000001,
+      "elapsed_s": 40.0,
+      "error": null
+    },
+    {
+      "eval_id": 35,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.135292,
+      "elapsed_s": 40.0,
+      "error": null
+    },
+    {
+      "eval_id": 36,
+      "human_winner": "",
+      "ai_winner": "",
+      "match": false,
+      "confidence": 0,
+      "ai_ranking": [],
+      "total_judges": 0,
+      "total_supreme": 0,
+      "cost": 0,
+      "elapsed_s": 0.3,
+      "error": null
+    },
+    {
+      "eval_id": 37,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0862585,
+      "elapsed_s": 30.1,
+      "error": null
+    },
+    {
+      "eval_id": 38,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.09344875,
+      "elapsed_s": 29.3,
+      "error": null
+    },
+    {
+      "eval_id": 39,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.0822365,
+      "elapsed_s": 29.3,
+      "error": null
+    },
+    {
+      "eval_id": 40,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "claude-v1"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.15475175000000002,
+      "elapsed_s": 46.4,
+      "error": null
+    },
+    {
+      "eval_id": 41,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.06588050000000001,
+      "elapsed_s": 23.2,
+      "error": null
+    },
+    {
+      "eval_id": 42,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.12018474999999999,
+      "elapsed_s": 34.2,
+      "error": null
+    },
+    {
+      "eval_id": 43,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.08577074999999999,
+      "elapsed_s": 33.4,
+      "error": null
+    },
+    {
+      "eval_id": 44,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1783515,
+      "elapsed_s": 69.3,
+      "error": null
+    },
+    {
+      "eval_id": 45,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.13768224999999998,
+      "elapsed_s": 39.7,
+      "error": null
+    },
+    {
+      "eval_id": 46,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10993724999999999,
+      "elapsed_s": 34.9,
+      "error": null
+    },
+    {
+      "eval_id": 47,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "gpt-4",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.16675275,
+      "elapsed_s": 45.7,
+      "error": null
+    },
+    {
+      "eval_id": 48,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.17127425,
+      "elapsed_s": 68.2,
+      "error": null
+    },
+    {
+      "eval_id": 49,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 1,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "claude-v1"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.0858605,
+      "elapsed_s": 36.4,
+      "error": null
+    },
+    {
+      "eval_id": 50,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "alpaca-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.18209575,
+      "elapsed_s": 49.4,
+      "error": null
+    },
+    {
+      "eval_id": 51,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.117539,
+      "elapsed_s": 43.8,
+      "error": null
+    },
+    {
+      "eval_id": 52,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10965925000000001,
+      "elapsed_s": 39.1,
+      "error": null
+    },
+    {
+      "eval_id": 53,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.1171075,
+      "elapsed_s": 33.7,
+      "error": null
+    },
+    {
+      "eval_id": 54,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11483975,
+      "elapsed_s": 37.1,
+      "error": null
+    },
+    {
+      "eval_id": 55,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.111291,
+      "elapsed_s": 31.2,
+      "error": null
+    },
+    {
+      "eval_id": 56,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "claude-v1",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-v1",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.09103375,
+      "elapsed_s": 29.8,
+      "error": null
+    },
+    {
+      "eval_id": 57,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.0741725,
+      "elapsed_s": 23.7,
+      "error": null
+    },
+    {
+      "eval_id": 58,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.06096525,
+      "elapsed_s": 33.3,
+      "error": null
+    },
+    {
+      "eval_id": 59,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10428499999999999,
+      "elapsed_s": 33.5,
+      "error": null
+    },
+    {
+      "eval_id": 60,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-v1",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.108566,
+      "elapsed_s": 47.9,
+      "error": null
+    },
+    {
+      "eval_id": 61,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11688349999999999,
+      "elapsed_s": 27.5,
+      "error": null
+    },
+    {
+      "eval_id": 62,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14923325,
+      "elapsed_s": 42.9,
+      "error": null
+    },
+    {
+      "eval_id": 63,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.17529475000000003,
+      "elapsed_s": 49.0,
+      "error": null
+    },
+    {
+      "eval_id": 64,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.11908674999999999,
+      "elapsed_s": 26.0,
+      "error": null
+    },
+    {
+      "eval_id": 65,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.16120625,
+      "elapsed_s": 37.7,
+      "error": null
+    },
+    {
+      "eval_id": 66,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.20664549999999998,
+      "elapsed_s": 45.4,
+      "error": null
+    },
+    {
+      "eval_id": 67,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.06347975,
+      "elapsed_s": 33.9,
+      "error": null
+    },
+    {
+      "eval_id": 68,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.08387675,
+      "elapsed_s": 26.5,
+      "error": null
+    },
+    {
+      "eval_id": 69,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.1159125,
+      "elapsed_s": 37.8,
+      "error": null
+    },
+    {
+      "eval_id": 70,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.062492250000000006,
+      "elapsed_s": 26.9,
+      "error": null
+    },
+    {
+      "eval_id": 71,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14998775,
+      "elapsed_s": 51.6,
+      "error": null
+    },
+    {
+      "eval_id": 72,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-v1",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.12340800000000002,
+      "elapsed_s": 42.5,
+      "error": null
+    },
+    {
+      "eval_id": 73,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.077649,
+      "elapsed_s": 21.9,
+      "error": null
+    },
+    {
+      "eval_id": 74,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "alpaca-13b",
+      "match": true,
+      "confidence": 5,
+      "ai_ranking": [
+        "alpaca-13b",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.07477175,
+      "elapsed_s": 22.3,
+      "error": null
+    },
+    {
+      "eval_id": 75,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.17160399999999998,
+      "elapsed_s": 39.7,
+      "error": null
+    },
+    {
+      "eval_id": 76,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.147426,
+      "elapsed_s": 48.2,
+      "error": null
+    },
+    {
+      "eval_id": 77,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10671525,
+      "elapsed_s": 32.9,
+      "error": null
+    },
+    {
+      "eval_id": 78,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "gpt-4"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.15751975000000001,
+      "elapsed_s": 33.5,
+      "error": null
+    },
+    {
+      "eval_id": 79,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 1,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.166137,
+      "elapsed_s": 53.9,
+      "error": null
+    },
+    {
+      "eval_id": 80,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.128628,
+      "elapsed_s": 49.9,
+      "error": null
+    },
+    {
+      "eval_id": 81,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "claude-v1"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13012849999999998,
+      "elapsed_s": 47.3,
+      "error": null
+    },
+    {
+      "eval_id": 82,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 3,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.200735,
+      "elapsed_s": 66.0,
+      "error": null
+    },
+    {
+      "eval_id": 83,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.22645674999999998,
+      "elapsed_s": 48.2,
+      "error": null
+    },
+    {
+      "eval_id": 84,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.0892635,
+      "elapsed_s": 27.6,
+      "error": null
+    },
+    {
+      "eval_id": 85,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 4,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.11883399999999998,
+      "elapsed_s": 29.3,
+      "error": null
+    },
+    {
+      "eval_id": 86,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.132967,
+      "elapsed_s": 30.2,
+      "error": null
+    },
+    {
+      "eval_id": 87,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "alpaca-13b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "alpaca-13b",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.11389675,
+      "elapsed_s": 24.2,
+      "error": null
+    },
+    {
+      "eval_id": 88,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "alpaca-13b",
+      "match": true,
+      "confidence": 1,
+      "ai_ranking": [
+        "alpaca-13b",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.125881,
+      "elapsed_s": 38.1,
+      "error": null
+    },
+    {
+      "eval_id": 89,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "claude-v1",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.10465550000000001,
+      "elapsed_s": 39.5,
+      "error": null
+    },
+    {
+      "eval_id": 90,
+      "human_winner": "alpaca-13b",
+      "ai_winner": "alpaca-13b",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "alpaca-13b",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.06710350000000001,
+      "elapsed_s": 23.4,
+      "error": null
+    },
+    {
+      "eval_id": 91,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "llama-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14163475,
+      "elapsed_s": 37.6,
+      "error": null
+    },
+    {
+      "eval_id": 92,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.16172599999999998,
+      "elapsed_s": 56.5,
+      "error": null
+    },
+    {
+      "eval_id": 93,
+      "human_winner": "vicuna-13b-v1.2",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": true,
+      "confidence": 1,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "gpt-4"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.17109575,
+      "elapsed_s": 35.8,
+      "error": null
+    },
+    {
+      "eval_id": 94,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "vicuna-13b-v1.2",
+      "match": false,
+      "confidence": 7,
+      "ai_ranking": [
+        "vicuna-13b-v1.2",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.09789875,
+      "elapsed_s": 24.1,
+      "error": null
+    },
+    {
+      "eval_id": 95,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "claude-v1"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.13768899999999998,
+      "elapsed_s": 46.9,
+      "error": null
+    },
+    {
+      "eval_id": 96,
+      "human_winner": "claude-v1",
+      "ai_winner": "claude-v1",
+      "match": true,
+      "confidence": 6,
+      "ai_ranking": [
+        "claude-v1",
+        "alpaca-13b"
+      ],
+      "total_judges": 0,
+      "total_supreme": 3,
+      "cost": 0.14431475,
+      "elapsed_s": 35.9,
+      "error": null
+    },
+    {
+      "eval_id": 97,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 0,
+      "ai_ranking": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "total_judges": 2,
+      "total_supreme": 3,
+      "cost": 0.1273225,
+      "elapsed_s": 38.8,
+      "error": null
+    },
+    {
+      "eval_id": 98,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "alpaca-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.15598475,
+      "elapsed_s": 44.1,
+      "error": null
+    },
+    {
+      "eval_id": 99,
+      "human_winner": "gpt-4",
+      "ai_winner": "gpt-4",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-4",
+        "vicuna-13b-v1.2"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.14593325000000001,
+      "elapsed_s": 32.8,
+      "error": null
+    },
+    {
+      "eval_id": 100,
+      "human_winner": "gpt-3.5-turbo",
+      "ai_winner": "gpt-3.5-turbo",
+      "match": true,
+      "confidence": 7,
+      "ai_ranking": [
+        "gpt-3.5-turbo",
+        "llama-13b"
+      ],
+      "total_judges": 1,
+      "total_supreme": 3,
+      "cost": 0.128378,
+      "elapsed_s": 41.1,
+      "error": null
+    }
+  ]
+}
